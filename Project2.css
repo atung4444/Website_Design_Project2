@@ -1,0 +1,43 @@
+img{
+
+}
+
+.name{
+  font-size: 75px !important;
+  margin-top: 5%;
+}
+
+.title{
+  font-size: 50px !important;
+}
+
+.header{
+  text-align: center !important;
+  border: 2px solid #000000 !important;
+}
+
+.col-md-3{
+  text-align: center;
+}
+
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #000000;
+    margin: 1em 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .pick_your_color {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .pick_your_color {
+    font-size: 80px;
+  }
+}
